@@ -4,8 +4,6 @@ Note: because these are 'empty' functions (return None), here we just test
   that the functions execute, and return None, as expected.
 """
 
-from functions import *
-
 def test_get_file():
     assert isinstance(file_name,str)
     assert os.path.exists(file_name)
